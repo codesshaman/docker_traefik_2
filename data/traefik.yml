@@ -3,9 +3,9 @@ api:
   debug: true
 entryPoints:
   http:
-    address: 80
+    address: ":80"
   https:
-    address: 443
+    address: ":443"
 serversTransport:
   insecureSkipVerify: true
 providers:
@@ -17,7 +17,7 @@ providers:
 certificatesResolvers:
   cloudflare:
     acme:
-      email: your@email.ru
+      email: nicksemail@yandex.ru
       storage: acme.json
       dnsChallenge:
         provider: cloudflare
