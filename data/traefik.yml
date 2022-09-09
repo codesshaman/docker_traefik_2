@@ -17,7 +17,7 @@ providers:
 certificatesResolvers:
   cloudflare:
     acme:
-      email: nicksemail@yandex.ru
+      email: your@email.ru
       storage: acme.json
       dnsChallenge:
         provider: cloudflare
